@@ -5,36 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <img src="./images/illustration-box-desktop.svg" alt="box" id="box">
+    <div class="container">
+      <picture id="woman">
+        <source media="(min-width: 1024px)" srcset="./images/illustration-woman-online-desktop.svg" width ="472" height="359">
+        <img src="./images/illustration-woman-online-mobile.svg" alt="a woman using a computer" width="266" height="196">
+      </picture>
+      <picture id="shadow">
+        <source media="(min-width: 1024px)" srcset="./images/bg-pattern-desktop.svg" width ="510" height="555">
+        <img src="./images/bg-pattern-mobile.svg" alt="shadow  of the ground that the woman is standing on" width="240" height="104">
+      </picture>
+      <div class="FAQ">
+        <h1>FAQ</h1>
+        <details>
+          <summary>How many team members can I invite?</summary>
+          <p>
+            You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.
+          </p>
+        </details>
+        <details open>
+          <summary>What is the maximum file upload size?</summary>
+          <p>
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </p>
+        </details>
+        <details>
+          <summary>How do I reset my password?</summary>
+          <p>
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </p>
+        </details>
+        <details>
+          <summary>Can I cancel my subscription?</summary>
+          <p>
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </p>
+        </details>
+        <details>
+          <summary>Do you provide additional support?</summary>
+          <p>
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </details>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
