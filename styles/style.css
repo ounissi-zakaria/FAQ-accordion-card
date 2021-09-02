@@ -53,6 +53,8 @@ div.container #woman {
 }
 @media (min-width: 1024px) {
   div.container #woman {
+    width: 472px;
+    height: 359px;
     top: 130px;
     left: -80px;
     z-index: 1;
@@ -64,6 +66,8 @@ div.container #shadow {
 }
 @media (min-width: 1024px) {
   div.container #shadow {
+    width: 510px;
+    height: 555px;
     position: relative;
     top: 40px;
     left: -90px;
