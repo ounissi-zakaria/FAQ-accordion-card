@@ -15,7 +15,7 @@ main {
 #box {
   display: none;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   #box {
     display: block;
     position: absolute;
@@ -38,7 +38,7 @@ div.container {
   flex-direction: column;
   position: relative;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   div.container {
     width: 920px;
     flex-direction: row;
@@ -53,7 +53,7 @@ div.container #woman {
   top: -107px;
   left: calc(calc(-327px + 100%)/2 + 17px);
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   div.container #woman {
     width: 472px;
     height: 359px;
@@ -68,7 +68,7 @@ div.container #shadow {
   margin: auto;
   margin-top: 0;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   div.container #shadow {
     width: 510px;
     height: 555px;
@@ -83,7 +83,7 @@ div.container div.FAQ {
   margin-bottom: 48px;
   margin-top: 17px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   div.container div.FAQ {
     width: 350px;
     margin-bottom: 85px;
@@ -96,7 +96,7 @@ div.container div.FAQ h1 {
   font-size: 3em;
   margin-bottom: 21px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   div.container div.FAQ h1 {
     margin-left: 15px;
   }
