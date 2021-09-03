@@ -47,6 +47,8 @@ div.container {
   }
 }
 div.container #woman {
+  width: 266px;
+  height: 196px;
   position: absolute;
   top: -107px;
   left: calc(calc(-327px + 100%)/2 + 17px);
@@ -61,6 +63,8 @@ div.container #woman {
   }
 }
 div.container #shadow {
+  width: 240px;
+  height: 104px;
   margin: auto;
   margin-top: 0;
 }
@@ -69,8 +73,8 @@ div.container #shadow {
     width: 510px;
     height: 555px;
     position: relative;
-    top: 40px;
-    left: -90px;
+    top: -250px;
+    left: -570px;
   }
 }
 div.container div.FAQ {
